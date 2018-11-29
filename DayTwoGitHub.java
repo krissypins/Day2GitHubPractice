@@ -6,9 +6,10 @@ public class DayTwoGitHub{
 		ArrayList<Integer> list = convertToArrayList(8950);
 		System.out.println(list);
 		ArrayList<Integer> list2 = new ArrayList<>();
-		list2.add(1);
-		list2.add(3);
-		list2.add(2);
+		list2.add(8);
+		list2.add(9);
+		list2.add(5);
+		list2.add(0);
 		System.out.println(putTogether(list2));
 
 	}
