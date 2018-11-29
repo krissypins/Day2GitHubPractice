@@ -5,6 +5,12 @@ public class DayTwoGitHub{
 	public static void main(String[]args){
 		ArrayList<Integer> list = convertToArrayList(8950);
 		System.out.println(list);
+		ArrayList<Integer> list2 = new ArrayList<>();
+		list2.add(1);
+		list2.add(3);
+		list2.add(2);
+		System.out.println(putTogether(list2));
+
 	}
 	public static ArrayList<Integer> convertToArrayList(int value){
 		ArrayList<Integer> list = new ArrayList<>();
