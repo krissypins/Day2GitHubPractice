@@ -24,7 +24,7 @@ public class DayTwoGitHub{
 	public static int putTogether(ArrayList<Integer> arr){
 		int x = 0;
 		for(int i = 0; i < arr.size(); i++){
-			x += Math.pow(arr.get(i), arr.size()-i);
+			x += arr.get(i) * Math.pow(10, arr.size()-(i+1));
 		}//end for
 		return x;
 	}//close method
